@@ -1,0 +1,19 @@
+FTP 项目
+运行描述：项目分为两个部分，服务器端server和客户端client,先运行服务器端./server_noverify ../conf/server.conf
+		  然后在运行客户端./client_noverify ip port(ip和端口号在conf文件夹里的server.conf文件里)，
+		  程序有日志记录功能，要建立log文件并放到和二进制文件同一个文件夹(bin)下
+功能： 
+	1.cd 进入对应目录
+	2.ls 列出相应目录文件
+	3.puts 将本地文件上传至服务器
+	4.gets 文件名 下载服务器文件到本地
+	5.remove 删除服务器上文件
+	6.pwd 显示目前所在路径
+	7.mkdir 当前路径创建文件夹
+	8.密码验证，运行./server_verify ../conf/server.conf 是带密码验证的，必须在root权限下运行
+	9.日志记录，log文件记录客户端操作
+	10.断点续传，文件没下载好是.mh结尾的临时文件，可以gets或puts继续下载或上传
+	11.mmap将大文件(>300M)映射进内存再进行网络传出，多大的文件进行映射已近放到func.h里
+
+注：如果自己要重新编译要把所有文件放到一起，由于项目采用了crypt进行加密验证，编译的时候要加上 -lcrypt;
+	执行带加密验证的二进制文件，用户名密码是server_verify所运行的电脑的用户的；
