@@ -84,9 +84,10 @@ int main(int argc,char **argv)
 		perror("epoll_ctl");
 		return -1;
 	}
-	int log_fd = open("log",O_WRONLY|O_APPEND);   //打开日志文件记录
+	int log_fd = open("./log/log",O_CREAT|O_WRONLY|O_APPEND,0600);   //打开日志文件记录
 	if(-1==log_fd)
 	{
+		printf("%s\n","\"log\" file can not find , should run in the server folder");
 		perror("open");
 		return -1;
 	}

@@ -54,7 +54,7 @@ void read_fd(int fds,int *fd);
 void child_work(int fds,int log_fd);
 void child_handle(int new_fd,int log_fd,struct sockaddr_in client);
 void make_child(pchild p,int num,int log_fd);
-void sendfile(int new_fd);
+//void sendfile(int new_fd);
 void recv_n(int new_fd,char *buf,int len);
 void send_n(int new_fd,char *buf,int len);
 

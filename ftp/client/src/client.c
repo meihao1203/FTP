@@ -25,6 +25,7 @@ int main(int argc,char **argv)
 		return -1;
 	}
 	//密码验证
+#if 0
 	ret = login_verify(sfd);
 	if(-1==ret)
 	{
@@ -33,6 +34,7 @@ int main(int argc,char **argv)
 		return -1 ;
 	}
 	printf("verify success!\n");
+#endif
 	pdata pd = (pdata)calloc(1,sizeof(data));
 	pcmd pc = (pcmd)calloc(1,sizeof(cmd));
 	int read_len;

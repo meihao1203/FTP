@@ -147,6 +147,7 @@ void child_handle(int new_fd,int log_fd,struct sockaddr_in client)
 	int recv_ret;
 
 	//密码验证,必须在超级权限下运行
+#if 0
 	int flag = authentication(new_fd);
 	if(-1==flag)
 	{
@@ -162,6 +163,7 @@ void child_handle(int new_fd,int log_fd,struct sockaddr_in client)
 		return ;
 	}
 	printf("client login success!\n");
+#endif
 	bzero(log_buf,sizeof(log_buf));
 	sprintf(log_buf,"client IP = %s , port = %d\n%s\n",inet_ntoa(client.sin_addr),ntohs(client.sin_port),"client login success!");
 	semop(semid,&sp,1);

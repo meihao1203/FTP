@@ -1,5 +1,5 @@
 #include"func.h"
-//判断文件是否存在，是否存在临时文件，发送文件和接收文件
+//发送，接收文件，判断文件是否存在，或者存在部分（file.mh）
 int is_file_exist_tmp(char *filename)
 {
 	char *pwd = getcwd(NULL,0);
@@ -85,7 +85,7 @@ int recv_file(int socket_fd)
 	{
 		char tmp_file[256] = {0};
 		sprintf(tmp_file,"%s%s",file_name,".mh");
-		int fd = open(tmp_file,O_CREAT|O_WRONLY|O_APPEND,0666);
+		int fd = open(tmp_file,O_CREAT|O_WRONLY,0666);
 		if(-1==fd)
 		{
 			perror("open");
