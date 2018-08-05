@@ -67,7 +67,7 @@ int main(int argc,char **argv)
 		perror("listen");
 		return -1;
 	}
-	//注册描述符，sfd和创建好的子进程对应的父进程端的管道
+	//注册描述符、sfd和创建好的子进程对应的父进程端的管道
 	int epfd  = epoll_create(1);
 	if(-1==epfd)
 	{
