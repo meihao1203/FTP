@@ -26,7 +26,7 @@ int main(int argc,char **argv)
 		perror("semctl");
 		return -1;   
 	}
-	semctl(semid,0,SETVAL,1);
+	
 	struct sembuf sp,sv;  
 	bzero(&sp,sizeof(sp)); 
 	bzero(&sv,sizeof(sv));
