@@ -1,11 +1,18 @@
-FTP 项目<br>
-运行描述:<br>
-	项目分为两个部分，服务器端server和客户端client,先运行服务器端./server_noverify ../conf/server.conf<br>
-	然后在运行客户端./client_noverify ip port(ip和端口号在conf文件夹里的server.conf文件里)，
-	程序有日志记录功能，要建立log文件并放到和二进制文件同一个文件夹(bin)下;
+# FTP 项目<br>
+## 运行描述: <br>
+```C++
+	项目分为两个部分，服务器端server和客户端client; <br>
+	* 先运行服务器端./run.sh（非密码验证）<br>
+	如果要直接去bin/文件夹下自己执行可执行文件，要修改src/下的server.c文件夹下第87行代码，打开log文件的相对路径路径“../log/log <br>
+	重新编译后执行：/server_noverify ../conf/server.conf
+	* 运行客户端./client_noverify ip port(ip和端口号在conf文件夹里的server.conf文件里);
+	* 程序有日志记录功能，log文件存放在server/log; <br>
 	程序采用进程池来实现，在服务器开启监听listen客户端连接的时候所有子进程都已经创建好并进入S睡眠状态，
-	默认只设置了5个业务进程，可以去头文件func.h里面自行更改重新编译
-功能： 
+	默认只设置了5个业务进程，可以去头文件func.h里面自行更改重新编译<br>
+	* 要执行带密码验证的，服务器端要在超级用户下执行，在bin/文件夹下运行./server_verify ../conf/server.conf<br>
+	
+```
+### 功能： 
 	1.cd 进入对应目录
 	2.ls 列出相应目录文件 （与LINUX系统下 "ls -l" 效果相同）
 	3.puts 文件名  将本地文件上传至服务器
