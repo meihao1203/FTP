@@ -42,48 +42,48 @@
 
 
 
-> 服务器端启动系统中的进程
+服务器端启动系统中的进程
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E7%B3%BB%E7%BB%9F%E5%90%AF%E5%8A%A8%E7%B3%BB%E7%BB%9F%E5%90%8E%E5%8F%B0%E8%BF%9B%E7%A8%8B.png)
 
 
 
-> 客户端运行，执行ls命令
+客户端运行，执行ls命令
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%89%A7%E8%A1%8Cls%E5%91%BD%E4%BB%A4.png)
 
 
 
-> 客户端执行pwd命令
+客户端执行pwd命令
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%89%A7%E8%A1%8Cpwd%E5%91%BD%E4%BB%A4.png)
 
 
 
-> 客户端执行gets命令
+客户端执行gets命令
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%89%A7%E8%A1%8Cgets%E5%91%BD%E4%BB%A4.png)
 
 
 
-> 客户端执行gets命令获取服务器端的视频文件后客户端下的文件情况
-> ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AFgets%E6%96%87%E4%BB%B6%E5%90%8E.png)
+客户端执行gets命令获取服务器端的视频文件后客户端下的文件情况
+> ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AFgets%E6%96%87%E4%BB%B6%E5%90%8E.png)<br>
     md5sum验证下载下来的文件是不是和服务器端完全一致
 
 
 
-> 客户端执行remove命令
+客户端执行remove命令
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%89%A7%E8%A1%8Cremove%E5%91%BD%E4%BB%A4.png)
 
 
 
-> 客户端执行mkdir命令
+客户端执行mkdir命令
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%89%A7%E8%A1%8Cmkdir%E5%91%BD%E4%BB%A4.png)
 
 
 
-> 客户端执行cd命令
+客户端执行cd命令
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%89%A7%E8%A1%8Ccd%E5%91%BD%E4%BB%A4.png)
 
 
 
-> 最终服务器端主目录下文件
+最终服务器端主目录下文件
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E6%9C%80%E7%BB%88%E6%9C%8D%E5%8A%A1%E7%AB%AF%E7%9A%84%E6%96%87%E4%BB%B6.png)
 
 #### 测试运行的程序截图中的视频文件84mb,没有push到项目之上；
@@ -92,15 +92,15 @@
 
 
 
-> 客户端下载大文件，下载一半断开
+客户端下载大文件，下载一半断开
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%E4%BA%86%E4%B8%80%E5%8D%8A.png)
 
 
 
-> 客户端连接继续下载
+客户端连接继续下载
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%96%AD%E7%82%B9%E7%BB%AD%E4%BC%A0.png)
 
 
 
-> 下载的大文件MD5码比对
+下载的大文件MD5码比对
 > ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%A4%A7%E6%96%87%E4%BB%B6mmap%E4%B8%8B%E8%BD%BD.png)
