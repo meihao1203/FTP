@@ -1,6 +1,6 @@
 FTP 项目
 运行描述:	
-	项目分为两个部分，服务器端server和客户端client,先运行服务器端./server_noverify ../conf/server.conf
+	项目分为两个部分，服务器端server和客户端client,先运行服务器端./server_noverify ../conf/server.conf<br>
 	然后在运行客户端./client_noverify ip port(ip和端口号在conf文件夹里的server.conf文件里)，
 	程序有日志记录功能，要建立log文件并放到和二进制文件同一个文件夹(bin)下;
 	程序采用进程池来实现，在服务器开启监听listen客户端连接的时候所有子进程都已经创建好并进入S睡眠状态，
