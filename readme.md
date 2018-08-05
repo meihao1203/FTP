@@ -30,14 +30,14 @@
 
 
 ----------
-##### 08052018更新，服务端增加log文件夹单独存放日志文件、增减不带密码验证的运行脚本，可直接./run.sh启动服务端。readme增加程序运行截图
+##### 08052018更新，服务端增加log文件夹单独存放日志文件、增加不带密码验证的运行脚本，可直接./run.sh启动服务端。readme增加程序运行截图
 
-> 程序开始服务器端执行"ls -ll"
-> ![开始服务器端文件](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%BC%80%E5%A7%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E6%96%87%E4%BB%B6.png)
+程序开始服务器端执行"ls -ll"
+ ![开始服务器端文件](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%BC%80%E5%A7%8B%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E6%96%87%E4%BB%B6.png)
 
 
 
-> 程序开始客户端bin/文件夹下文件
+程序开始客户端bin/文件夹下文件
 > ![程序开始客户端目录下bin/下文件](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/%E5%BC%80%E5%A7%8B%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%8F%AF%E6%89%A7%E8%A1%8C%E6%96%87%E4%BB%B6%E5%A4%B9.png)
 
 
