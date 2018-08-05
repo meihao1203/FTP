@@ -88,7 +88,7 @@
 ###### 测试运行的程序截图中的视频文件84mb,没有push到项目之上。
 
 ##### 下面是测试大文件的mmap映射上传和断点续传 ###
-![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/mmap%E5%A4%A7%E6%96%87%E4%BB%B6%E6%98%A0%E5%B0%84%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD.png)
+> ![](https://github.com/meihao1203/FTP/blob/master/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE/mmap%E5%A4%A7%E6%96%87%E4%BB%B6%E6%98%A0%E5%B0%84%E4%B8%8A%E4%BC%A0%E4%B8%8B%E8%BD%BD.png)
 
 
 
