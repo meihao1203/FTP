@@ -14,7 +14,7 @@ int mmap_send_file(int socket_fd,char *file_name)
 		return -1;
 	}
 	int file_offset_len ;
-	recv_n(socket_fd,(char*)&file_offset_len,sizeof(int));  //确定文件要偏移到哪>    里开始发（断点续传）
+	recv_n(socket_fd,(char*)&file_offset_len,sizeof(int));  //确定文件要偏移到哪里开始发（断点续传）
 	struct stat s;
 	bzero(&s,sizeof(s));
 	fstat(fd,&s);
