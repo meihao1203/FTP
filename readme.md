@@ -3,8 +3,8 @@
 ```C++
 项目分为两个部分，服务器端server和客户端client; 
 * 先运行服务器端./run.sh（非密码验证）
-      （如果要直接去bin/文件夹下自己执行可执行文件，要修改src/下的server.c文件夹下第87行代码，<br>
-       打开log文件的相对路径路径“../log/log”重新编译后执行：/server_noverify ../conf/server.conf）
+     ``````(如果要直接去bin/文件夹下自己执行可执行文件，要修改src/下的server.c文件夹下第87行代码，<br>
+     ``````打开log文件的相对路径路径“../log/log”重新编译后执行：/server_noverify ../conf/server.conf）
 * 运行客户端./client_noverify ip port(ip和端口号在conf文件夹里的server.conf文件里);
 * 程序有日志记录功能，log文件存放在server/log; 	
 * 要执行带密码验证的，服务器端要在超级用户下执行，在bin/文件夹下运行./server_verify ../conf/server.conf
