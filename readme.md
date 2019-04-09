@@ -28,7 +28,7 @@
 	如果自己要重新编译要把所有文件放到一起，由于项目采用了crypt进行linux自带的SHA-512加密验证，编译的时候要加上 -lcrypt;
 	执行带加密验证的二进制文件，用户名密码是server_verify所运行的电脑的用户的；
 
-
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 ----------
 #### 08052018更新，服务端增加log文件夹单独存放日志文件、增加不带密码验证的运行脚本，可直接./run.sh启动服务端，readme增加程序运行截图
 
